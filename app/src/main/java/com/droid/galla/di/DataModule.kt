@@ -15,7 +15,6 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object DataModule {
 
-
     @Module
     @InstallIn(SingletonComponent::class)
     object DatabaseModule {
@@ -29,5 +28,4 @@ object DataModule {
             ).build()
         }
     }
-
 }
